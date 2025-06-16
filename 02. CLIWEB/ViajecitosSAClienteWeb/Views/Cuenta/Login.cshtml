@@ -1,0 +1,66 @@
+﻿@model ViajecitosSAClienteWeb.Models.LoginViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Asegúrate de tener un layout general
+}
+
+<style>
+    body {
+        background: url('https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .login-card {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .login-logo {
+        width: 60px;
+        margin-bottom: 10px;
+    }
+
+    .airline-brand {
+        font-weight: bold;
+        font-size: 28px;
+        color: #004080;
+    }
+
+    .main-container {
+        background: transparent !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+</style>
+
+<div class="container d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <div class="col-md-5 login-card text-center">
+        <img src="https://img.icons8.com/color/96/airplane-take-off.png" class="login-logo" alt="logo">
+        <div class="airline-brand">Viajecitos SA</div>
+        <h5 class="mb-4">Bienvenido al portal de vuelos</h5>
+
+        @using (Html.BeginForm())
+        {
+            <div class="form-group mb-3 text-start">
+                @Html.LabelFor(m => m.Username)
+                @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Nombre de usuario" })
+            </div>
+            <div class="form-group mb-4 text-start">
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Contraseña" })
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+        }
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+        }
+
+        <small class="d-block mt-4 text-muted">© Viajecitos SA - 2025</small>
+    </div>
+</div>

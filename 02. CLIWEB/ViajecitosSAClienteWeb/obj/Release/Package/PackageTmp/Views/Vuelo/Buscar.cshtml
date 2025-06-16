@@ -1,0 +1,66 @@
+﻿@model ViajecitosSAClienteWeb.Models.BuscarVueloViewModel
+
+@using System.Linq
+
+@{
+    ViewBag.Title = "Buscar Vuelos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="text-center mb-4">Buscar vuelos disponibles</h3>
+
+@using (Html.BeginForm("Buscar", "Vuelo", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            @Html.LabelFor(m => m.CiudadOrigen)
+            @Html.TextBoxFor(m => m.CiudadOrigen, new { @class = "form-control", placeholder = "Ej. UIO" })
+        </div>
+        <div class="col-md-4 mb-3">
+            @Html.LabelFor(m => m.CiudadDestino)
+            @Html.TextBoxFor(m => m.CiudadDestino, new { @class = "form-control", placeholder = "Ej. GYE" })
+        </div>
+        <div class="col-md-4 mb-3">
+            @Html.LabelFor(m => m.Fecha)
+            @Html.TextBoxFor(m => m.Fecha, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+        </div>
+    </div>
+    <div class="text-center mb-4">
+        <button type="submit" class="btn btn-primary px-5">Buscar</button>
+    </div>
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-warning text-center">@ViewBag.Mensaje</div>
+}
+else if (Model.Resultados.Any())
+{
+    <table class="table table-bordered table-striped text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Origen</th>
+                <th>Destino</th>
+                <th>Salida</th>
+                <th>Precio</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var vuelo in Model.Resultados)
+            {
+                <tr>
+                    <td>@vuelo.Id</td>
+                    <td>@vuelo.CiudadOrigen</td>
+                    <td>@vuelo.CiudadDestino</td>
+                    <td>@vuelo.HoraSalida</td>
+                    <td>$@vuelo.Valor</td>
+                    <td>
+                        <a class="btn btn-sm btn-success" href="@Url.Action("Comprar", "Vuelo", new { id = vuelo.Id })">Comprar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

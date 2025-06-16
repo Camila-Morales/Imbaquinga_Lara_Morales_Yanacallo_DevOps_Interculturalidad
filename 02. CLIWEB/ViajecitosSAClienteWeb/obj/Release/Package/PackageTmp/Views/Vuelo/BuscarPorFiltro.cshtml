@@ -1,0 +1,71 @@
+﻿@model ViajecitosSAClienteWeb.Models.BuscarVueloViewModel
+
+@{
+    ViewBag.Title = "Buscar Vuelos por Filtro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-primary text-center">Buscar Vuelos</h2>
+
+    @using (Html.BeginForm("BuscarPorFiltro", "Vuelo", FormMethod.Post, new { @class = "needs-validation", novalidate = "novalidate" }))
+    {
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="tipoFiltro">Tipo de Filtro:</label>
+                <select class="form-control" name="tipoFiltro" id="tipoFiltro" required>
+                    <option value="">-- Seleccione --</option>
+                    <option value="origen">Ciudad Origen</option>
+                    <option value="destino">Ciudad Destino</option>
+                    <option value="fecha">Fecha de Salida</option>
+                </select>
+                <div class="invalid-feedback">Seleccione un tipo de filtro.</div>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="ValorFiltro">Valor del Filtro:</label>
+                @Html.TextBoxFor(m => m.ValorFiltro, new { @class = "form-control", @required = "required" })
+                <div class="invalid-feedback">Ingrese un valor para el filtro.</div>
+            </div>
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="submit" class="btn btn-primary btn-block">Buscar</button>
+        </div>
+    }
+
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-warning mt-4 text-center">
+            @ViewBag.Mensaje
+        </div>
+    }
+
+    @if (Model.Resultados != null && Model.Resultados.Any())
+    {
+        <h3 class="mt-5 text-success">Resultados encontrados:</h3>
+        <div class="table-responsive mt-3">
+            <table class="table table-bordered table-hover table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Ciudad Origen</th>
+                        <th>Ciudad Destino</th>
+                        <th>Valor</th>
+                        <th>Hora Salida</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var vuelo in Model.Resultados)
+                    {
+                        <tr>
+                            <td>@vuelo.CiudadOrigen</td>
+                            <td>@vuelo.CiudadDestino</td>
+                            <td>@vuelo.Valor.ToString("C")</td>
+                            <td>@vuelo.HoraSalida.ToString("g")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

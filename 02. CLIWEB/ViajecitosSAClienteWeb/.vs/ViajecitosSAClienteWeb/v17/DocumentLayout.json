@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|c:\\users\\camila\\desktop\\examen_gr06\\01. viajecitos_soap_dotnet_gr06\\02. cliweb\\viajecitossaclienteweb\\views\\vuelo\\verfactura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\vuelo\\verfactura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\controllers\\vuelocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:controllers\\vuelocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\views\\vuelo\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\vuelo\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\views\\vuelo\\confirmacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\vuelo\\confirmacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\models\\confirmacioncompraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:models\\confirmacioncompraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\views\\vuelo\\comprar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\vuelo\\comprar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\views\\vuelo\\buscarporfiltro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\vuelo\\buscarporfiltro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\models\\buscarvueloviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:models\\buscarvueloviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\views\\vuelo\\buscar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\vuelo\\buscar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\views\\cuenta\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:views\\cuenta\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14BA118-445E-4946-9AC4-6DB5B2CCEEA6}|ViajecitosSAClienteWeb.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerFactura.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\VerFactura.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vuelo\\VerFactura.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\VerFactura.cshtml",
+              "RelativeToolTip": "Views\\Vuelo\\VerFactura.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:46:36.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\Factura.cs",
+              "RelativeToolTip": "Models\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:45:38.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VueloController.cs",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Controllers\\VueloController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VueloController.cs",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Controllers\\VueloController.cs",
+              "RelativeToolTip": "Controllers\\VueloController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAuwJYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T23:02:11.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Resultado.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\Resultado.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vuelo\\Resultado.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\Resultado.cshtml",
+              "RelativeToolTip": "Views\\Vuelo\\Resultado.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T23:07:12.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\Compra.cs",
+              "RelativeDocumentMoniker": "Models\\Compra.cs",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\Compra.cs",
+              "RelativeToolTip": "Models\\Compra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T23:03:27.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T13:03:35.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T14:11:23.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CuentaController.cs",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Controllers\\CuentaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CuentaController.cs",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Controllers\\CuentaController.cs",
+              "RelativeToolTip": "Controllers\\CuentaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T23:02:36.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T23:04:03.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Confirmacion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\Confirmacion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vuelo\\Confirmacion.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\Confirmacion.cshtml",
+              "RelativeToolTip": "Views\\Vuelo\\Confirmacion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T23:12:45.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Comprar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\Comprar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vuelo\\Comprar.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\Comprar.cshtml",
+              "RelativeToolTip": "Views\\Vuelo\\Comprar.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T23:07:24.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfirmacionCompraViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\ConfirmacionCompraViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ConfirmacionCompraViewModel.cs",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\ConfirmacionCompraViewModel.cs",
+              "RelativeToolTip": "Models\\ConfirmacionCompraViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T23:05:34.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BuscarPorFiltro.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\BuscarPorFiltro.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vuelo\\BuscarPorFiltro.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\BuscarPorFiltro.cshtml",
+              "RelativeToolTip": "Views\\Vuelo\\BuscarPorFiltro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:20:58.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BuscarVueloViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\BuscarVueloViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\BuscarVueloViewModel.cs",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\BuscarVueloViewModel.cs",
+              "RelativeToolTip": "Models\\BuscarVueloViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T23:05:22.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Buscar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\Buscar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vuelo\\Buscar.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Vuelo\\Buscar.cshtml",
+              "RelativeToolTip": "Views\\Vuelo\\Buscar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T23:07:00.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T14:18:20.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Cuenta\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cuenta\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Views\\Cuenta\\Login.cshtml",
+              "RelativeToolTip": "Views\\Cuenta\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T23:06:34.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T23:05:12.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Camila\\Desktop\\EXAMEN_GR06\\01. VIAJECITOS_SOAP_DOTNET_GR06\\02. CLIWEB\\ViajecitosSAClienteWeb\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:43:20.532Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

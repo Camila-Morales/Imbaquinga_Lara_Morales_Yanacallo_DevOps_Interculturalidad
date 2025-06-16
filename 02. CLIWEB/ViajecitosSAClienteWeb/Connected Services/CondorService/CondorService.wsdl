@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://aerocondor.com/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://aerocondor.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://aerocondor.com/">
+      <s:element name="ObtenerVuelos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="origen" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="destino" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerVuelosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerVuelosResult" type="tns:ArrayOfVuelo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfVuelo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Vuelo" nillable="true" type="tns:Vuelo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Vuelo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CiudadOrigen" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CiudadDestino" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Valor" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoraSalida" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ComprarVuelo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="vueloId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="usuarioId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ComprarVueloResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ComprarVueloResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerVueloPorId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerVueloPorIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerVueloPorIdResult" type="tns:Vuelo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerVuelosPorFiltro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tipoFiltro" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="valor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerVuelosPorFiltroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerVuelosPorFiltroResult" type="tns:ArrayOfVuelo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ComprarVueloConCantidad">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="vueloId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="usuarioId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="cantidad" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ComprarVueloConCantidadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ComprarVueloConCantidadResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerFacturaPorId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="facturaId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerFacturaPorIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerFacturaPorIdResult" type="tns:Factura" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Factura">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="UsuarioId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreUsuario" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EdadUsuario" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NacionalidadUsuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CiudadOrigen" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CiudadDestino" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoraSalida" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Cantidad" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PrecioUnitario" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PrecioTotal" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaEmision" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ObtenerVuelosSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerVuelos" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerVuelosSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerVuelosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComprarVueloSoapIn">
+    <wsdl:part name="parameters" element="tns:ComprarVuelo" />
+  </wsdl:message>
+  <wsdl:message name="ComprarVueloSoapOut">
+    <wsdl:part name="parameters" element="tns:ComprarVueloResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerVueloPorIdSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerVueloPorId" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerVueloPorIdSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerVueloPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerVuelosPorFiltroSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerVuelosPorFiltro" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerVuelosPorFiltroSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerVuelosPorFiltroResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComprarVueloConCantidadSoapIn">
+    <wsdl:part name="parameters" element="tns:ComprarVueloConCantidad" />
+  </wsdl:message>
+  <wsdl:message name="ComprarVueloConCantidadSoapOut">
+    <wsdl:part name="parameters" element="tns:ComprarVueloConCantidadResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerFacturaPorIdSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerFacturaPorId" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerFacturaPorIdSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerFacturaPorIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CondorServiceSoap">
+    <wsdl:operation name="ObtenerVuelos">
+      <wsdl:input message="tns:ObtenerVuelosSoapIn" />
+      <wsdl:output message="tns:ObtenerVuelosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ComprarVuelo">
+      <wsdl:input message="tns:ComprarVueloSoapIn" />
+      <wsdl:output message="tns:ComprarVueloSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVueloPorId">
+      <wsdl:input message="tns:ObtenerVueloPorIdSoapIn" />
+      <wsdl:output message="tns:ObtenerVueloPorIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVuelosPorFiltro">
+      <wsdl:input message="tns:ObtenerVuelosPorFiltroSoapIn" />
+      <wsdl:output message="tns:ObtenerVuelosPorFiltroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ComprarVueloConCantidad">
+      <wsdl:input message="tns:ComprarVueloConCantidadSoapIn" />
+      <wsdl:output message="tns:ComprarVueloConCantidadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerFacturaPorId">
+      <wsdl:input message="tns:ObtenerFacturaPorIdSoapIn" />
+      <wsdl:output message="tns:ObtenerFacturaPorIdSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CondorServiceSoap" type="tns:CondorServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerVuelos">
+      <soap:operation soapAction="http://aerocondor.com/ObtenerVuelos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ComprarVuelo">
+      <soap:operation soapAction="http://aerocondor.com/ComprarVuelo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVueloPorId">
+      <soap:operation soapAction="http://aerocondor.com/ObtenerVueloPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVuelosPorFiltro">
+      <soap:operation soapAction="http://aerocondor.com/ObtenerVuelosPorFiltro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://aerocondor.com/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ComprarVueloConCantidad">
+      <soap:operation soapAction="http://aerocondor.com/ComprarVueloConCantidad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerFacturaPorId">
+      <soap:operation soapAction="http://aerocondor.com/ObtenerFacturaPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CondorServiceSoap12" type="tns:CondorServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerVuelos">
+      <soap12:operation soapAction="http://aerocondor.com/ObtenerVuelos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ComprarVuelo">
+      <soap12:operation soapAction="http://aerocondor.com/ComprarVuelo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVueloPorId">
+      <soap12:operation soapAction="http://aerocondor.com/ObtenerVueloPorId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerVuelosPorFiltro">
+      <soap12:operation soapAction="http://aerocondor.com/ObtenerVuelosPorFiltro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://aerocondor.com/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ComprarVueloConCantidad">
+      <soap12:operation soapAction="http://aerocondor.com/ComprarVueloConCantidad" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerFacturaPorId">
+      <soap12:operation soapAction="http://aerocondor.com/ObtenerFacturaPorId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CondorService">
+    <wsdl:port name="CondorServiceSoap" binding="tns:CondorServiceSoap">
+      <soap:address location="http://10.40.20.145/SoapExamen/CondorService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CondorServiceSoap12" binding="tns:CondorServiceSoap12">
+      <soap12:address location="http://10.40.20.145/SoapExamen/CondorService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

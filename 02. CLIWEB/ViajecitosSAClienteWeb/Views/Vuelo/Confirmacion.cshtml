@@ -1,0 +1,26 @@
+﻿@model ViajecitosSAClienteWeb.Models.ConfirmacionCompraViewModel
+
+@{
+    ViewBag.Title = "Compra Exitosa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="text-center text-success">¡Compra realizada con éxito!</h3>
+
+@if (Model.Vuelo != null)
+{
+    <div class="text-center mt-3">
+        <p>@Model.Mensaje</p>
+        <p>Vuelo de <strong>@Model.Vuelo.CiudadOrigen</strong> a <strong>@Model.Vuelo.CiudadDestino</strong></p>
+        <p>Salida: @Model.Vuelo.HoraSalida</p>
+        <p>Precio unitario: <strong>$@Model.Vuelo.Valor</strong></p>
+        <p>Cantidad de boletos: <strong>@Model.Cantidad</strong></p>
+        <p>Total: <strong>$@(Model.Vuelo.Valor * Model.Cantidad)</strong></p>
+
+        <a href="@Url.Action("Buscar", "Vuelo")" class="btn btn-outline-secondary mt-4">Volver a buscar</a>
+    </div>
+}
+else
+{
+    <div class="alert alert-danger text-center mt-3">Error: No se pudo mostrar el vuelo.</div>
+}

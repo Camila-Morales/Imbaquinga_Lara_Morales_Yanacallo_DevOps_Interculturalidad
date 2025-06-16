@@ -1,0 +1,34 @@
+﻿@model ViajecitosSAClienteWeb.CondorService.Vuelo
+
+@{
+    ViewBag.Title = "Confirmar Compra";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="text-center mb-4">Confirmar compra de vuelo</h3>
+
+@if (Model == null)
+{
+    <div class="alert alert-danger text-center">No se encontró el vuelo.</div>
+}
+else
+{
+    <div class="text-center">
+        <p><strong>Origen:</strong> @Model.CiudadOrigen</p>
+        <p><strong>Destino:</strong> @Model.CiudadDestino</p>
+        <p><strong>Salida:</strong> @Model.HoraSalida</p>
+        <p><strong>Precio:</strong> $@Model.Valor</p>
+
+        @using (Html.BeginForm("ConfirmarCompra", "Vuelo"))
+        {
+            @Html.Hidden("vueloId", Model.Id)
+
+            <div class="form-group mt-3">
+                <label for="cantidad">Cantidad de boletos:</label>
+                <input type="number" name="cantidad" id="cantidad" class="form-control w-25 mx-auto" value="1" min="1" required />
+            </div>
+
+            <button type="submit" class="btn btn-primary px-4 mt-3">Confirmar Compra</button>
+        }
+    </div>
+}
