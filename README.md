@@ -16,9 +16,9 @@ Reporte de factura
 La lógica de negocio está implementada usando el patrón MVC (Model-View-Controller).
 
 ## 🌐 Frontend - Cliente Web en .Net
-El cliente web está desarrollado con React.js, que permite a los usuarios:
+El cliente web está desarrollado con .NET, que permite a los usuarios:
 
-Registrarse e iniciar sesión
+Iniciar sesión
 Buscar vuelos disponibles
 Agregar varios vuelos
 Ver factura
@@ -28,15 +28,11 @@ La comunicación entre frontend y backend se realiza usando Axios mediante llama
 Backend (Servidor)
 
 .NET 6+
-ASP.NET Core para la creación de APIs REST
-Entity Framework Core para acceso a datos
 SQL Server como base de datos relacional
-Frontend (Cliente)
 
-React 18+
-Axios para consumo de servicios REST
-React Router para navegación entre vistas
-Bootstrap / Tailwind CSS (según preferencia) para estilos
+Frontend (Cliente)
+.Net que consuma el servicio
+
 # Base de Datos
 SQL Server con las siguientes tablas:
 
