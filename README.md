@@ -4,7 +4,7 @@ Descripción del Proyecto
 Este proyecto es un sistema de gestión y compra de vuelos desarrollado para la empresa Viajecitos SA. Permite a los usuarios buscar vuelos, seleccionar múltiples vuelos, elegir la cantidad de boletos.
 
 # Arquitectura del Sistema
-El proyecto sigue una arquitectura cliente-servidor basada en APIs RESTful:
+El proyecto sigue una arquitectura cliente-servidor basada en servicio SOAP:
 
 ## 🔧 Backend - Servidor .NET
 El backend es una aplicación desarrollada con .NET, que expone servicios web REST para:
