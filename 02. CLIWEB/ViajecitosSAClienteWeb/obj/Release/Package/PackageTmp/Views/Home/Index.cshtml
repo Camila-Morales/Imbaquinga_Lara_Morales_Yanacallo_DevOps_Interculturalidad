@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+
+<h2>Bienvenido a Viajecitos SA</h2>
+
+@if (Session["Usuario"] != null)
+{
+    <p>Usuario: @Session["Usuario"]</p>
+    <ul>
+        <li><a href="@Url.Action("Index", "Compra")">Buscar y Ver Vuelos</a></li>
+        <li><a href="@Url.Action("Index", "BuscarPorFiltro")">Buscar vuelos por filtros</a></li>
+        <li><a href="@Url.Action("Index", "Login")">Cerrar sesión</a></li>
+    </ul>
+}
+else
+{
+    <p>No ha iniciado sesión. <a href="@Url.Action("Index", "Login")">Iniciar ahora</a></p>
+}

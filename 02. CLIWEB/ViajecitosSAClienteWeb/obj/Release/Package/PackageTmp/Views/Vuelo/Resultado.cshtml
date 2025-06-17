@@ -1,0 +1,21 @@
+﻿@model ViajecitosSAClienteWeb.CondorService.Vuelo
+@{
+    ViewBag.Title = "Resultado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-warning text-center">@ViewBag.Mensaje</div>
+}
+else
+{
+    <div class="text-center">
+        <h4>Vuelo más caro disponible</h4>
+        <p><strong>Origen:</strong> @Model.CiudadOrigen</p>
+        <p><strong>Destino:</strong> @Model.CiudadDestino</p>
+        <p><strong>Hora de salida:</strong> @Model.HoraSalida</p>
+        <p><strong>Precio:</strong> $@Model.Valor</p>
+        <a class="btn btn-success mt-3" href="@Url.Action("Comprar", "Vuelo", new { id = Model.Id })">Comprar este vuelo</a>
+    </div>
+}

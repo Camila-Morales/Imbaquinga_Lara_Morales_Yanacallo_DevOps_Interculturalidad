@@ -1,0 +1,41 @@
+﻿@model ViajecitosSAClienteWeb.Models.Factura
+
+@{
+    ViewBag.Title = "Ver Factura";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Ver Factura por ID</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="facturaId">ID de la Factura:</label>
+        <input type="number" name="facturaId" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar Factura</button>
+</form>
+
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-warning mt-3">@ViewBag.Mensaje</div>
+}
+
+@if (Model != null)
+{
+    <div class="mt-4">
+        <h4>Detalles de la Factura</h4>
+        <table class="table table-bordered">
+            <tr><th>ID</th><td>@Model.Id</td></tr>
+            <tr><th>Nombre</th><td>@Model.NombreUsuario</td></tr>
+            <tr><th>Edad</th><td>@Model.EdadUsuario</td></tr>
+            <tr><th>Nacionalidad</th><td>@Model.NacionalidadUsuario</td></tr>
+            <tr><th>Origen</th><td>@Model.CiudadOrigen</td></tr>
+            <tr><th>Destino</th><td>@Model.CiudadDestino</td></tr>
+            <tr><th>Salida</th><td>@Model.HoraSalida</td></tr>
+            <tr><th>Cantidad</th><td>@Model.Cantidad</td></tr>
+            <tr><th>Precio Unitario</th><td>@Model.PrecioUnitario</td></tr>
+            <tr><th>Total</th><td>@Model.PrecioTotal</td></tr>
+            <tr><th>Fecha Emisión</th><td>@Model.FechaEmision</td></tr>
+        </table>
+    </div>
+}
