@@ -1,7 +1,7 @@
 **✈️ Viajecitos SA - Sistema de Compra de Vuelos**
 
 # Descripción del Proyecto
-Este proyecto es un sistema completo de gestión y compra de vuelos desarrollado para la empresa ficticia Viajecitos SA. Permite a los usuarios buscar vuelos, seleccionar múltiples vuelos, elegir la cantidad de boletos.
+Este proyecto es un sistema de gestión y compra de vuelos desarrollado para la empresa Viajecitos SA. Permite a los usuarios buscar vuelos, seleccionar múltiples vuelos, elegir la cantidad de boletos.
 
 # Arquitectura del Sistema
 
