@@ -36,7 +36,7 @@ Frontend (Cliente)
 # Base de Datos
 SQL Server con las siguientes tablas:
 
-usuarios: guarda datos de login y roles
+usuarios: guarda datos del usuario
 vuelos: información de los vuelos disponibles
 compras: resumen de cada compra
 compra_vuelos: relación entre compras y vuelos
