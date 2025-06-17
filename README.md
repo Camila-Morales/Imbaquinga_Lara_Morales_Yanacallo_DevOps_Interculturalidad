@@ -7,15 +7,15 @@ Este proyecto es un sistema de gestión y compra de vuelos desarrollado para la 
 El proyecto sigue una arquitectura cliente-servidor basada en servicio SOAP:
 
 ## 🔧 Backend - Servidor .NET
-El backend es una aplicación desarrollada con .NET, que expone servicios web REST para:
+El backend es una aplicación desarrollada con .NET, que expone servicios web SOAP para:
 
-Autenticación y registro de usuarios
+Autenticación
 Búsqueda de vuelos
 Registro de compras con múltiples vuelos
 Reporte de factura
 La lógica de negocio está implementada usando el patrón MVC (Model-View-Controller).
 
-## 🌐 Frontend - Cliente Web en React
+## 🌐 Frontend - Cliente Web en .Net
 El cliente web está desarrollado con React.js, que permite a los usuarios:
 
 Registrarse e iniciar sesión
