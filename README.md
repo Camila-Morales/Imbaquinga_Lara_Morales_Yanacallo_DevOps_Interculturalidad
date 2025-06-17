@@ -1,6 +1,6 @@
 ✈️ Viajecitos SA - Sistema de Compra de Vuelos
 
-🧩 Descripción del Proyecto
+#Descripción del Proyecto
 Este proyecto es un sistema completo de gestión y compra de vuelos desarrollado para la empresa ficticia Viajecitos SA. Permite a los usuarios buscar vuelos, seleccionar múltiples vuelos, elegir la cantidad de boletos, y realizar compras con dos formas de pago:
 
 - Efectivo: con descuento automático del 5% sobre el total.
@@ -9,11 +9,11 @@ Este proyecto es un sistema completo de gestión y compra de vuelos desarrollado
 
 - El sistema también cuenta con una interfaz de administración para visualizar todas las compras realizadas.
 
-🧱 Arquitectura del Sistema
+#Arquitectura del Sistema
 
 El proyecto sigue una arquitectura cliente-servidor basada en APIs RESTful:
 
-🔧 Backend - Servidor Spring Boot
+#🔧 Backend - Servidor Spring Boot
 El backend es una aplicación Java desarrollada con Spring Boot, que expone servicios web REST para:
 
 Autenticación y registro de usuarios
@@ -26,7 +26,7 @@ Reporte de factura
 
 La lógica de negocio está implementada usando el patrón MVC (Model-View-Controller).
 
-🌐 Frontend - Cliente Web en React
+#🌐 Frontend - Cliente Web en React
 
 El cliente web está desarrollado con React.js, que permite a los usuarios:
 
@@ -61,7 +61,7 @@ React Router para navegación entre vistas
 
 Bootstrap / Tailwind CSS (según preferencia) para estilos
 
-Base de Datos
+#Base de Datos
 
 MySQL con las siguientes tablas:
 
